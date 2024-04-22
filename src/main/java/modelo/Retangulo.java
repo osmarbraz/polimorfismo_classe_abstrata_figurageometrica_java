@@ -1,3 +1,5 @@
+package modelo;
+
 
 public class Retangulo extends FiguraGeometrica {
 
@@ -10,8 +12,8 @@ public class Retangulo extends FiguraGeometrica {
 
     public Retangulo(String cor, double x, double y) {
         super(cor);
-        setX(x);
-        setY(y);
+        this.x = x;
+        this.y = y;        
     }
 
     public double getX() {

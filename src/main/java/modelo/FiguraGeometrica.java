@@ -1,3 +1,5 @@
+package modelo;
+
 
 public abstract class FiguraGeometrica {
 
@@ -8,7 +10,7 @@ public abstract class FiguraGeometrica {
     }
 
     public FiguraGeometrica(String cor) {
-        setCor(cor);
+        this.cor = cor;
     }
 
     public String getCor() {

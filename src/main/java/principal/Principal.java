@@ -1,3 +1,9 @@
+package principal;
+
+import modelo.Circulo;
+import modelo.Retangulo;
+import modelo.FiguraGeometrica;
+
 
 public class Principal {
 
